@@ -1,0 +1,104 @@
+Args: Namespace(alpha_del=0.4, alpha_sub=0.4, augment_rate=0.0, augment_type='all', batch_size=4, cuda=True, decay=0, epoch=3, fine_tune=True, freeze_pretrained=False, gradient_clip=-1, labml=True, lr=5e-06, lstm_dim=-1, model_name='repunct-model', pretrained_model='DeepPavlov/rubert-base-cased-sentence', resume=False, save_dir='models/', seed=1, sequence_length=256, store_best_weights=True, store_every_weight=False, sub_style='unk', targets={'O': 0, 'COMMA': 1, 'PERIOD': 2}, test_data=['data/ft/test.csv'], train_data=['data/ft/train.csv'], val_data=['data/ft/val.csv'], weights=None)
+epoch: 0, Train loss: 0.06801339824694198, Train accuracy: 0.9714515980587982
+Precision: [0.98321604 0.87203072 0.97462932 0.92540063]
+Recall: [0.98469595 0.85120293 0.98329594 0.91882578]
+F1 score: [0.98395544 0.86149096 0.97894345 0.92210149]
+Accuracy: 0.973180817516511
+Confusion Matrix:
+[[109253   1409    289]
+ [  1688   9765     19]
+ [   177     24  11832]]
+O:
+	Precision: 0.9832
+	Recall: 0.9847
+	F1 score: 0.984
+COMMA:
+	Precision: 0.872
+	Recall: 0.8512
+	F1 score: 0.8615
+PERIOD:
+	Precision: 0.9746
+	Recall: 0.9833
+	F1 score: 0.9789
+COMMA + PERIOD:
+	Precision: 0.9254
+	Recall: 0.9188
+	F1 score: 0.9221
+epoch: 0, Val loss: 0.06397380828370455, Val accuracy: 0.973180817516511
+epoch: 1, Train loss: 0.05722948014326803, Train accuracy: 0.97593397326992
+Precision: [0.98463841 0.86852694 0.97768226 0.92464938]
+Recall: [0.98441654 0.86549861 0.98296352 0.92563284]
+F1 score: [0.98452746 0.86701013 0.98031578 0.92514085]
+Accuracy: 0.9741402391860534
+Confusion Matrix:
+[[109222   1474    255]
+ [  1528   9929     15]
+ [   176     29  11828]]
+O:
+	Precision: 0.9846
+	Recall: 0.9844
+	F1 score: 0.9845
+COMMA:
+	Precision: 0.8685
+	Recall: 0.8655
+	F1 score: 0.867
+PERIOD:
+	Precision: 0.9777
+	Recall: 0.983
+	F1 score: 0.9803
+COMMA + PERIOD:
+	Precision: 0.9246
+	Recall: 0.9256
+	F1 score: 0.9251
+epoch: 1, Val loss: 0.06261275375103639, Val accuracy: 0.9741402391860534
+epoch: 2, Train loss: 0.05036412872128434, Train accuracy: 0.9787895596974272
+Precision: [0.9848668  0.86749302 0.97738901 0.92398405]
+Recall: [0.98425431 0.86628312 0.98429319 0.92669645]
+F1 score: [0.98456046 0.86688765 0.98082895 0.92533826]
+Accuracy: 0.9741923008270363
+Confusion Matrix:
+[[109204   1489    258]
+ [  1518   9938     16]
+ [   160     29  11844]]
+O:
+	Precision: 0.9849
+	Recall: 0.9843
+	F1 score: 0.9846
+COMMA:
+	Precision: 0.8675
+	Recall: 0.8663
+	F1 score: 0.8669
+PERIOD:
+	Precision: 0.9774
+	Recall: 0.9843
+	F1 score: 0.9808
+COMMA + PERIOD:
+	Precision: 0.924
+	Recall: 0.9267
+	F1 score: 0.9253
+epoch: 2, Val loss: 0.06306891050798441, Val accuracy: 0.9741923008270363
+Best validation Acc: 0.9741923008270363
+Precision: [0.9848668  0.86749302 0.97738901 0.92398405]
+Recall: [0.98425431 0.86628312 0.98429319 0.92669645]
+F1 score: [0.98456046 0.86688765 0.98082895 0.92533826]
+Accuracy: 0.9741923008270363
+Confusion Matrix:
+[[109204   1489    258]
+ [  1518   9938     16]
+ [   160     29  11844]]
+O:
+	Precision: 0.9849
+	Recall: 0.9843
+	F1 score: 0.9846
+COMMA:
+	Precision: 0.8675
+	Recall: 0.8663
+	F1 score: 0.8669
+PERIOD:
+	Precision: 0.9774
+	Recall: 0.9843
+	F1 score: 0.9808
+COMMA + PERIOD:
+	Precision: 0.924
+	Recall: 0.9267
+	F1 score: 0.9253
