@@ -4,7 +4,7 @@
  
 ```shell
 git lfs install
-git clone https://github.com/eleldar/punctuation.git
+git clone https://github.com/eleldar/Punctuation.git
 cd punctuation
 python3 -m venv venv
 . venv/bin/activate
